@@ -1,0 +1,65 @@
+<script>
+/* Cambio lingua IT <-> EN
+   Ogni pagina italiana ha una gemella inglese nella cartella en/.
+   Per aggiungere una pagina: aggiungere la coppia qui sotto. */
+(function () {
+  var pairs = {
+    "index.html": "en/index.html",
+    "cv.html": "en/cv.html",
+    "didattica.html": "en/teaching.html",
+    "pubblicazioni.html": "en/publications.html"
+  };
+  var labelsEN = {
+    "cv.html": "CV",
+    "didattica.html": "Teaching",
+    "pubblicazioni.html": "Publications"
+  };
+
+  var brand = document.querySelector("a.navbar-brand");
+  if (!brand) return;
+  // radice del sito, ricavata dal link del titolo (che punta a index.html)
+  var root = new URL(brand.getAttribute("href"), window.location.href).href
+    .replace(/index\.html$/, "");
+
+  var here = window.location.href.split("#")[0].split("?")[0];
+  var rel = here.indexOf(root) === 0 ? here.slice(root.length) : "";
+  if (rel === "" || rel.slice(-1) === "/") rel += "index.html";
+
+  var isEN = rel.indexOf("en/") === 0;
+  var reverse = {};
+  Object.keys(pairs).forEach(function (k) { reverse[pairs[k]] = k; });
+
+  // il link "English" della barra di navigazione fa da selettore di lingua
+  var sw = null;
+  document.querySelectorAll("#navbarCollapse a.nav-link").forEach(function (a) {
+    var t = new URL(a.getAttribute("href"), window.location.href).href;
+    if (t === root + "en/index.html" || t === root + "en/") sw = a;
+  });
+  if (sw) { sw.classList.add("lang-switch"); sw.classList.remove("active"); }
+  var swText = sw ? sw.querySelector(".menu-text") : null;
+
+  if (isEN) {
+    document.documentElement.setAttribute("lang", "en");
+    brand.setAttribute("href", root + "en/index.html");
+    document.querySelectorAll("#navbarCollapse a.nav-link").forEach(function (a) {
+      if (a === sw) return;
+      var target = new URL(a.getAttribute("href"), window.location.href).href;
+      var key = target.indexOf(root) === 0 ? target.slice(root.length) : null;
+      if (key && pairs[key]) {
+        a.setAttribute("href", root + pairs[key]);
+        var t = a.querySelector(".menu-text");
+        if (t && labelsEN[key]) t.textContent = labelsEN[key];
+        if (pairs[key] === rel) a.classList.add("active");
+      }
+    });
+    if (sw) {
+      sw.setAttribute("href", root + (reverse[rel] || "index.html"));
+      sw.setAttribute("lang", "it");
+      if (swText) swText.textContent = "Italiano";
+    }
+  } else if (sw) {
+    sw.setAttribute("href", root + (pairs[rel] || "en/index.html"));
+    sw.setAttribute("lang", "en");
+  }
+})();
+</script>

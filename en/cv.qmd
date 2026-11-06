@@ -1,0 +1,43 @@
+---
+title: "Curriculum Vitae"
+---
+
+<!--
+To offer the CV as a PDF: copy the file to files/cv.pdf
+and remove the comment marks around the button line below.
+Fields in [square brackets] are still to be filled in.
+-->
+
+<!-- [Download the full CV (PDF)](../files/cv.pdf){.btn .btn-outline-primary} -->
+
+## Current position
+
+::: cv-list
+- **[Position]** \
+  [Department], University of Palermo · [year]–present
+:::
+
+## Education
+
+::: cv-list
+- **[PhD in ...]** \
+  [University] · [year]
+
+- **[Degree in ...]** \
+  [University] · [year]
+:::
+
+## Research
+
+- []
+
+## Teaching
+
+- []
+
+## Skills
+
+::: cv-list
+- []
+- []
+:::

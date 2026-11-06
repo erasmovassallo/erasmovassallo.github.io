@@ -1,0 +1,43 @@
+---
+title: "Curriculum Vitae"
+---
+
+<!--
+Per offrire il CV in PDF: copiare il file in files/cv.pdf
+e togliere i segni di commento dalla riga del pulsante qui sotto.
+I campi tra [parentesi quadre] sono da completare.
+-->
+
+<!-- [Scarica il CV completo (PDF)](files/cv.pdf){.btn .btn-outline-primary} -->
+
+## Posizione attuale
+
+::: cv-list
+- **[Ruolo]** \
+  [Dipartimento], Università degli Studi di Palermo · [anno]–oggi
+:::
+
+## Formazione
+
+::: cv-list
+- **[Dottorato di ricerca in ...]** \
+  [Università] · [anno]
+
+- **[Laurea in ...]** \
+  [Università] · [anno]
+:::
+
+## Ricerca
+
+- []
+
+## Didattica
+
+- []
+
+## Competenze
+
+::: cv-list
+- []
+- []
+:::

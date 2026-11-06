@@ -1,0 +1,47 @@
+---
+title: "Pubblicazioni"
+---
+
+<!--
+Come aggiungere una pubblicazione: copiare un blocco "- **Titolo** ..." e modificarlo.
+I campi tra [parentesi quadre] sono da completare.
+-->
+
+## Articoli su rivista
+
+::: pub-list
+- **[]** \
+  [][][]
+  *[]*, n. ?/2026.
+
+- **[]** \
+  [][][]
+  *[]*, n. ?/2026 \
+  <span class="meta">[].</span> \
+:::
+
+## Lavori in corso
+
+::: pub-list
+- **[]** \
+  [][][]
+  *[]*, n. ?/2026.
+
+- **[]** \
+  [][][]
+  *[]*, n. ?/2026 \
+  <span class="meta">[].</span> \
+:::
+
+## Interventi e divulgazione
+
+::: pub-list
+- **[]** \
+  [][][]
+  *[]*, n. ?/2026.
+
+- **[]** \
+  [][][]
+  *[]*, n. ?/2026 \
+  <span class="meta">[].</span> \
+:::

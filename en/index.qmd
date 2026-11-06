@@ -1,0 +1,36 @@
+---
+title: "Erasmo Vassallo"
+subtitle: "University of Palermo"
+pagetitle: "Erasmo Vassallo"
+image: ../images/foto.jpg
+about:
+  template: trestles
+  image-shape: round
+  image-width: 13em
+  links:
+    # Check the email address before publishing
+    - icon: envelope
+      text: Email
+      href: mailto:erasmo.vassallo@unipa.it
+    - icon: github
+      text: GitHub
+      href: https://github.com/erasmovassallo
+    # - icon: mortarboard
+    #   text: Google Scholar
+    #   href: https://scholar.google.com/citations?user=...
+    # - icon: person-badge
+    #   text: ORCID
+    #   href: https://orcid.org/0000-0000-0000-0000
+---
+
+Department of Economics, Business and Statistics  
+University of Palermo  
+Viale delle Scienze, ed.13, Palermo
+
+## Research interests
+
+- [da definire]
+
+## Highlights
+
+- [da definire]

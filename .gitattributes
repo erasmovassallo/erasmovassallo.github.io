@@ -1,0 +1,11 @@
+# Fine riga: sempre LF (stile Unix), anche su Windows
+* text=auto eol=lf
+
+# File binari: nessuna conversione
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.pdf binary
+*.woff binary
+*.woff2 binary

@@ -1,0 +1,48 @@
+---
+title: "Publications"
+---
+
+<!--
+To add a publication: copy one "- **Title** ..." block and edit it.
+Fields in [square brackets] are still to be filled in.
+-->
+
+## Journal articles
+
+::: pub-list
+- **[]** \
+  [][][]
+  *[]*, n. ?/2026.
+
+- **[]** \
+  [][][]
+  *[]*, n. ?/2026 \
+  <span class="meta">[].</span> \
+:::
+
+
+## Work in progress
+
+::: pub-list
+- **[]** \
+  [][][]
+  *[]*, n. ?/2026.
+
+- **[]** \
+  [][][]
+  *[]*, n. ?/2026 \
+  <span class="meta">[].</span> \
+:::
+
+## Talks and outreach
+
+::: pub-list
+- **[]** \
+  [][][]
+  *[]*, n. ?/2026.
+
+- **[]** \
+  [][][]
+  *[]*, n. ?/2026 \
+  <span class="meta">[].</span> \
+:::

@@ -1,0 +1,31 @@
+---
+title: "Teaching"
+---
+
+<!--
+Update courses, academic years and degree programmes.
+Fields in [square brackets] are still to be filled in.
+-->
+
+## Courses
+
+::: cv-list
+- **[]** <span class="badge-status">in English</span> \
+  [Master's degree programme], University of Palermo · [2026/27] \
+  <span class="meta"> [] </span>
+
+- **[]** \
+  [Degree programme], University of Palermo · [academic year]
+:::
+
+## Theses
+
+- []
+
+## Materials
+
+<!-- Add links to slides, notes, R/Python scripts here, for example:
+- [Lecture 1 slides](../files/lecture1.pdf)
+-->
+
+- []

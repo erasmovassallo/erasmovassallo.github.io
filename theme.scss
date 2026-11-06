@@ -1,0 +1,99 @@
+/*-- scss:defaults --*/
+
+// Caratteri: titoli serif (stile accademico), testo sans-serif leggibile
+$font-family-sans-serif: "Source Sans 3", "Segoe UI", system-ui, -apple-system, sans-serif;
+$headings-font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+$font-size-base: 1.05rem;
+$line-height-base: 1.65;
+
+// Colori
+$primary: #1f3a5f;          // blu notte
+$link-color: #1f5f8b;
+$body-color: #222222;
+$navbar-bg: #ffffff;
+$navbar-fg: #1f3a5f;
+$navbar-hl: #b5651d;        // accento ambra per la voce attiva
+$footer-bg: #ffffff;
+
+/*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap');
+
+.navbar {
+  border-bottom: 1px solid #e6e8eb;
+}
+
+.navbar-brand .navbar-title {
+  font-family: $headings-font-family;
+  font-weight: 600;
+  letter-spacing: .01em;
+}
+
+.lang-switch .menu-text {
+  font-size: .85em;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  padding: .1em .7em;
+}
+
+h1, h2, h3 {
+  color: $primary;
+}
+
+h2 {
+  border-bottom: 1px solid #e6e8eb;
+  padding-bottom: .25em;
+  margin-top: 2rem;
+}
+
+// Pagina iniziale (template "trestles")
+.about-entity .about-link {
+  font-size: .9em;
+}
+
+.quarto-title-block .subtitle,
+.about-entity .lead {
+  color: #5a6472;
+}
+
+// Elenchi di pubblicazioni e voci di CV
+.pub-list > ul,
+.cv-list > ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.pub-list > ul > li,
+.cv-list > ul > li {
+  margin-bottom: 1em;
+  padding-left: 1em;
+  border-left: 3px solid #e6e8eb;
+}
+
+.pub-list > ul > li:hover {
+  border-left-color: $navbar-hl;
+}
+
+.meta {
+  color: #5a6472;
+  font-size: .92em;
+}
+
+.badge-status {
+  display: inline-block;
+  font-size: .75em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  color: #b5651d;
+  border: 1px solid #b5651d;
+  border-radius: 4px;
+  padding: 0 .4em;
+  margin-left: .3em;
+  vertical-align: .1em;
+}
+
+.page-footer {
+  border-top: 1px solid #e6e8eb;
+  font-size: .9em;
+}
