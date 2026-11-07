@@ -15,6 +15,9 @@ about:
     - icon: github
       text: GitHub
       href: https://github.com/erasmovassallo
+    - icon: building
+      text: Unipa
+      href: https://www.unipa.it/persone/docenti/v/erasmo.vassallo
     # Per aggiungere altri profili, togliere il # dalle righe qui sotto e completare il link
     # - icon: mortarboard
     #   text: Google Scholar
@@ -24,13 +27,11 @@ about:
     #   href: https://orcid.org/0000-0000-0000-0000
 ---
 
-Dipartimento di Scienze Economiche, Aziendali e Statistiche  
-Università degli Studi di Palermo  
-Viale delle Scienze, ed.13, Palermo
+## Breve profilo
 
-## Interessi di ricerca
-
-- [da definire]
+- Nato nel 1972, coniugato con Anna; due figli, Gabriele e Edoardo.
+- Professore di Statistica Economica.
+- Dipartimento di Scienze Economiche, Aziendali e Statistiche (SEAS). Università degli Studi di Palermo. Viale delle Scienze, edificio 13, Palermo
 
 ## In evidenza
 

@@ -15,6 +15,9 @@ about:
     - icon: github
       text: GitHub
       href: https://github.com/erasmovassallo
+    - icon: building
+      text: Unipa
+      href: https://www.unipa.it/persone/docenti/v/erasmo.vassallo
     # - icon: mortarboard
     #   text: Google Scholar
     #   href: https://scholar.google.com/citations?user=...
@@ -23,14 +26,12 @@ about:
     #   href: https://orcid.org/0000-0000-0000-0000
 ---
 
-Department of Economics, Business and Statistics  
-University of Palermo  
-Viale delle Scienze, ed.13, Palermo
+## Brief profile
 
-## Research interests
-
-- [da definire]
+- Born in 1972, married to Anna; two sons, Gabriele and Edoardo.
+- Professor of Economic Statistics.
+- Department of Economics, Business and Statistics (SEAS). University of Palermo. Viale delle Scienze, building 13, Palermo
 
 ## Highlights
 
-- [da definire]
+- [to be defined]

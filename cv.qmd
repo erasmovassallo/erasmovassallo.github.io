@@ -5,27 +5,53 @@ title: "Curriculum Vitae"
 <!--
 Per offrire il CV in PDF: copiare il file in files/cv.pdf
 e togliere i segni di commento dalla riga del pulsante qui sotto.
-I campi tra [parentesi quadre] sono da completare.
+Per aggiungere una voce: copiare una riga "- [anno]{.year} [testo]{.what}" e modificarla.
 -->
 
 <!-- [Scarica il CV completo (PDF)](files/cv.pdf){.btn .btn-outline-primary} -->
 
-## Posizione attuale
-
-::: cv-list
-- **[Ruolo]** \
-  [Dipartimento], Università degli Studi di Palermo · [anno]–oggi
-:::
-
 ## Formazione
 
-::: cv-list
-- **[Dottorato di ricerca in ...]** \
-  [Università] · [anno]
-
-- **[Laurea in ...]** \
-  [Università] · [anno]
+::: cv-timeline
+- [1995]{.year} [Laurea in Scienze Statistiche ed Economiche (Università degli Studi di Palermo, con 110/110 lode e menzione).]{.what}
+- [1995]{.year} [Abilitazione (sessione 2.95) all'attività professionale nelle discipline statistiche.]{.what}
+- [1996]{.year} [ISIDA (formazione su attività d'impresa e direzione d'azienda).]{.what}
+- [1997]{.year} [CERISDI (borsa di studio e formazione su ricerca, direzione d'azienda e management pubblico).]{.what}
+- [1997]{.year} [StatLab, Università di Cambridge (UK).]{.what}
+- [1998]{.year} [Università IUSU, San Diego (USA).]{.what}
+- [1998–2000]{.year} [Dottorato di Ricerca presso UniParthenope (Napoli).]{.what}
 :::
+
+## Ruoli accademici e professionali
+
+::: cv-timeline
+- [1995–1998]{.year} [Attività professionale da statistico in aziende ed enti pubblici e privati.]{.what}
+- [1999–2000]{.year} [Ricercatore ISTAT (Istituto Nazionale di Statistica italiano).]{.what}
+- [2001–2003]{.year} [Assegnista di Ricerca (Università di Palermo).]{.what}
+- [2003–oggi]{.year} [In ruolo nell'Ateneo di Palermo.]{.what}
+- [ ]{.year} [Socio SIS (Società Italiana di Statistica), già socio SIE, SIEDS, AISRE e AIV. Già affiliato al CERMEF LUISS.]{.what}
+:::
+
+## Alcune attività gestionali ed esperienze professionali
+
+::: cv-timeline
+- [2022–oggi]{.year} [Coordinatore dei Corsi di Studio in "Statistica e Data Science" (triennale L41 e magistrale LM82-LMDATA) dell'Ateneo di Palermo.]{.what}
+- [2023–oggi]{.year} [Coordinatore del progetto "Data Literacy, comunicazione e divulgazione della cultura statistica" nell'ambito del medesimo Ateneo, in collaborazione con l'Istituto Nazionale di Statistica italiano.]{.what}
+:::
+
+### In precedenza
+
+- Direttore scientifico del master "Med-CHHAB" (Università di Palermo) nell'ambito dell'obiettivo 1 del progetto formativo (finanziamento PON).
+- Componente del gruppo 1 del comitato tecnico di indirizzo – programmazione sanitaria dell'ex Assessorato alla Salute della Regione Sicilia.
+- Ispettore di censimento Istat (per il 5° Censimento dell'agricoltura) per la provincia di Trapani e componente della relativa Commissione Tecnica Provinciale.
+- Responsabile del sottogruppo tematico "sviluppo di indicatori congiunturali e tendenziali" nell'ambito del servizio Istat "statistiche territoriali e politiche di coesione".
+- Assistenza tecnica presso l'ex Ministero del Tesoro (cabina di regia dei fondi strutturali) in qualità di esperto Istat, con riferimento all'assistenza statistica nei rapporti con la Commissione Europea e nella programmazione delle risorse dei Fondi Sociali Europei (Istat-MEF nell'ambito dell'ex Dipartimento per la Coesione).
+- Membro del comitato editoriale della collana *Studi Statistici per il Turismo* (Cleup, Padova).
+- Attività di valutazione progetti e iscrizione nei relativi registri speciali (a titolo di esempio: progetti MIUR, Università di Sassari, Università Politecnica del Belgio, ...).
+- Componente di comitati organizzatori di riunioni scientifiche: ERSA e AISRE (2013), SIS (2018) e SIEDS (2022).
+
+<!--
+Sezioni della versione precedente, per ora nascoste (togliere i segni di commento per ripristinarle):
 
 ## Ricerca
 
@@ -41,3 +67,4 @@ I campi tra [parentesi quadre] sono da completare.
 - []
 - []
 :::
+-->

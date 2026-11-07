@@ -5,27 +5,53 @@ title: "Curriculum Vitae"
 <!--
 To offer the CV as a PDF: copy the file to files/cv.pdf
 and remove the comment marks around the button line below.
-Fields in [square brackets] are still to be filled in.
+To add an entry: copy a "- [year]{.year} [text]{.what}" line and edit it.
 -->
 
 <!-- [Download the full CV (PDF)](../files/cv.pdf){.btn .btn-outline-primary} -->
 
-## Current position
-
-::: cv-list
-- **[Position]** \
-  [Department], University of Palermo · [year]–present
-:::
-
 ## Education
 
-::: cv-list
-- **[PhD in ...]** \
-  [University] · [year]
-
-- **[Degree in ...]** \
-  [University] · [year]
+::: cv-timeline
+- [1995]{.year} [Degree in Statistical and Economic Sciences (University of Palermo, 110/110 cum laude with special mention).]{.what}
+- [1995]{.year} [State qualification (session 2.95) to practise as a professional statistician.]{.what}
+- [1996]{.year} [ISIDA (training in entrepreneurship and business administration).]{.what}
+- [1997]{.year} [CERISDI (scholarship and training in research, business administration and public management).]{.what}
+- [1997]{.year} [StatLab, University of Cambridge (UK).]{.what}
+- [1998]{.year} [IUSU University, San Diego (USA).]{.what}
+- [1998–2000]{.year} [PhD (Dottorato di Ricerca) at UniParthenope (Naples).]{.what}
 :::
+
+## Academic and professional positions
+
+::: cv-timeline
+- [1995–1998]{.year} [Professional work as a statistician for public and private companies and organisations.]{.what}
+- [1999–2000]{.year} [Researcher at ISTAT (Italian National Institute of Statistics).]{.what}
+- [2001–2003]{.year} [Research fellow (assegnista di ricerca), University of Palermo.]{.what}
+- [2003–present]{.year} [Permanent faculty member at the University of Palermo.]{.what}
+- [ ]{.year} [Member of SIS (Italian Statistical Society); former member of SIE, SIEDS, AISRE and AIV. Formerly affiliated with CERMEF LUISS.]{.what}
+:::
+
+## Selected management roles and professional experience
+
+::: cv-timeline
+- [2022–present]{.year} [Coordinator of the degree programmes in "Statistics and Data Science" (bachelor's L41 and master's LM82-LMDATA) at the University of Palermo.]{.what}
+- [2023–present]{.year} [Coordinator of the project "Data Literacy, communication and dissemination of statistical culture" at the same University, in collaboration with the Italian National Institute of Statistics (Istat).]{.what}
+:::
+
+### Previously
+
+- Scientific director of the master's programme "Med-CHHAB" (University of Palermo) under Objective 1 of the training project (PON funding).
+- Member of group 1 of the technical steering committee for health planning of the former Department of Health (Assessorato alla Salute) of the Sicilian Region.
+- Istat census inspector (5th Agricultural Census) for the province of Trapani and member of the related Provincial Technical Committee.
+- Head of the thematic subgroup "development of short-term and trend indicators" within the Istat service "territorial statistics and cohesion policies".
+- Technical assistance at the former Ministry of the Treasury (structural funds steering unit) as an Istat expert, providing statistical support in relations with the European Commission and in the programming of European Social Fund resources (Istat-MEF, within the former Department for Cohesion).
+- Member of the editorial board of the series *Studi Statistici per il Turismo* (Cleup, Padua).
+- Project evaluation and listing in the related special registers (for example: MIUR projects, University of Sassari, Polytechnic University of Belgium, ...).
+- Member of the organising committees of scientific meetings: ERSA and AISRE (2013), SIS (2018) and SIEDS (2022).
+
+<!--
+Sections from the previous version, hidden for now (remove the comment marks to restore them):
 
 ## Research
 
@@ -41,3 +67,4 @@ Fields in [square brackets] are still to be filled in.
 - []
 - []
 :::
+-->

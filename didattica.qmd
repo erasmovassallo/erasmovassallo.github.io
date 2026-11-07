@@ -4,23 +4,22 @@ title: "Didattica"
 
 <!--
 Aggiornare corsi, anni accademici e corsi di laurea.
-I campi tra [parentesi quadre] sono da completare.
 -->
 
 ## Insegnamenti
 
+- a.a. 2026-2027
+
 ::: cv-list
-- **[]** <span class="badge-status">in inglese</span> \
-  [Corso di laurea magistrale], Università degli Studi di Palermo · [a.a. 2026/27] \
-  <span class="meta"> [] </span>
+- **STATISTICAL MODELS FOR ECONOMIC AND FINANCIAL TIME SERIES** <span class="badge-status">in inglese</span> \
+  [LM82-LMDATA], Università degli Studi di Palermo \
 
-- **[]** \
-  [Corso di laurea], Università degli Studi di Palermo · [a.a.]
+- **METODI PER LA VALUTAZIONE DEI SERVIZI E CONTROLLO STATISTICO DELLA QUALITÀ** <span class="badge-status">in italiano</span> \
+  [LM82-LMDATA], Università degli Studi di Palermo \
+
+- **MODELLI E PREVISIONI DI SERIE STORICHE ECONOMICHE** <span class="badge-status">in italiano</span> \
+  [L41], Università degli Studi di Palermo \
 :::
-
-## Tesi
-
-- []
 
 ## Materiali
 
@@ -28,4 +27,4 @@ I campi tra [parentesi quadre] sono da completare.
 - [Slide della lezione 1](files/lezione1.pdf)
 -->
 
-- []
+- https://erasmovassallo.github.io/statistica-economica

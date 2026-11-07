@@ -9,18 +9,19 @@ Fields in [square brackets] are still to be filled in.
 
 ## Courses
 
-::: cv-list
-- **[]** <span class="badge-status">in English</span> \
-  [Master's degree programme], University of Palermo · [2026/27] \
-  <span class="meta"> [] </span>
+- a.y. 2026-2027
 
-- **[]** \
-  [Degree programme], University of Palermo · [academic year]
+::: cv-list
+- **STATISTICAL MODELS FOR ECONOMIC AND FINANCIAL TIME SERIES** <span class="badge-status">in english</span> \
+  [LM82-LMDATA], University of Palermo \
+
+- **METODI PER LA VALUTAZIONE DEI SERVIZI E CONTROLLO STATISTICO DELLA QUALITÀ** <span class="badge-status">in italian</span> \
+  [LM82-LMDATA], University of Palermo \
+
+- **MODELLI E PREVISIONI DI SERIE STORICHE ECONOMICHE** <span class="badge-status">in italian</span> \
+  [L41], University of Palermo \
 :::
 
-## Theses
-
-- []
 
 ## Materials
 
@@ -28,4 +29,4 @@ Fields in [square brackets] are still to be filled in.
 - [Lecture 1 slides](../files/lecture1.pdf)
 -->
 
-- []
+- https://erasmovassallo.github.io/statistica-economica

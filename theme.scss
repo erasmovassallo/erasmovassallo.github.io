@@ -93,6 +93,31 @@ h2 {
   vertical-align: .1em;
 }
 
+// Voci del CV con anno a sinistra e descrizione a destra
+.cv-timeline > ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.cv-timeline > ul > li {
+  display: grid;
+  grid-template-columns: 8.5em 1fr;
+  column-gap: 1em;
+  margin-bottom: .6em;
+}
+
+.cv-timeline .year {
+  font-weight: 600;
+  color: $primary;
+  white-space: nowrap;
+}
+
+@media (max-width: 576px) {
+  .cv-timeline > ul > li {
+    grid-template-columns: 1fr;
+  }
+}
+
 .page-footer {
   border-top: 1px solid #e6e8eb;
   font-size: .9em;
